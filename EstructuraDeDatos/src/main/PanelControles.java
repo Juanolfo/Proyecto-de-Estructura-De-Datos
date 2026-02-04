@@ -6,8 +6,21 @@ package main;
 
 /**
  *
- * @author Utente Locale
+ * @author Juan B
  */
-public class PanelControles {
-    
+import javax.swing.*;
+import java.awt.event.ActionListener;
+
+public class PanelControles extends JPanel{
+    private JButton btnCargar, btnGuardar, btnAgregarArista, btnEliminarNodo, btnEjecutarDijkstra, btnBuscarHubs, btnDetectarComplejos;
+    private JTextField txtNombreNodo, txtOrigen, txtDestino, txtPesoIngresado;
+
+    // métodos del diagrama
+    public String getProteinaOrigen() { return txtOrigen.getText(); }
+    public String getProteinaDestino() { return txtDestino.getText(); }
+    public int getPesoIngresado() { return Integer.parseInt(txtPesoIngresado.getText()); }
+
+    public void escucharBotones(ActionListener controlador) {
+        // asignar controlador a cada botón
+    }
 }

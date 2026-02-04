@@ -7,8 +7,15 @@ package main;
 
 /**
  *
- * @author Utente Locale
+ * @author Juan B
  */
 public class ControladorBioGraph {
-    
+    private VentanaPrincipal vista;
+    private GrafoPPI modelo;
+    private GestorArchivos gestor;
+
+    public void iniciar() { /* inicializa  GUI */ }
+    public void eventoCargarArchivo() { /* lógica */ }
+    public void eventoEliminarProteina() { /* lógica */ }
+    public void eventoCalcularDijkstra() { /* lógica */ }   
 }

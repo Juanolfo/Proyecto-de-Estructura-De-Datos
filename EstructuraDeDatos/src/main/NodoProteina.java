@@ -6,8 +6,19 @@ package main;
 
 /**
  *
- * @author Utente Locale
+ * @author Juan B
  */
 public class NodoProteina {
+    private String nombre;
+    private int indice;
+
+    public NodoProteina(String nombre, int indice) {
+        this.nombre = nombre;
+        this.indice = indice;
+    }
+
+    public String getNombre() { return nombre; }
     
+    @Override
+    public String toString() { return nombre; }
 }

@@ -6,8 +6,16 @@ package main;
 
 /**
  *
- * @author Utente Locale
+ * @author Juan B
  */
+import java.util.List;
+
 public class AnalizadorAlgoritmo {
+    public List<List<NodoProteina>> bfs_DetectarComplejos(GrafoPPI g) { return null; }
     
+    public void dijkstra_RutaCorta(GrafoPPI g, NodoProteina inicio, NodoProteina fin) {
+        // lógica de camino mínimo
+    }
+
+    public NodoProteina detectarHubs(GrafoPPI g) { return null; }
 }

@@ -6,8 +6,11 @@ package main;
 
 /**
  *
- * @author Utente Locale
+ * @author Juan B
  */
+import java.io.File;
+
 public class GestorArchivos {
-    
+    public GrafoPPI cargarGrafo(File ruta) { return new GrafoPPI(); }
+    public boolean guardarGrafo(File ruta, GrafoPPI grafo) { return true; }
 }
