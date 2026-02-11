@@ -1,7 +1,3 @@
-/* SI NETBEANS TE DA ERROR EN LA PRIMERA LINEA, 
-   ESCRIBE AQUÍ: package tareagrafos;  
-   (O el nombre de paquete que tenías antes de borrar todo) */
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -122,9 +118,10 @@ public class GrafoArtesanal {
 
     public static void main(String[] args) {
         GrafoArtesanal g = new GrafoArtesanal();
-        // IMPORTANTE: EL NOMBRE DEBE SER EXACTO AL DE TU ARCHIVO
+       
         g.cargarCSV("maestro (2).csv"); 
         g.bfs("P1");
         g.dijkstra("P1");
     }
+
 }    
